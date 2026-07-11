@@ -44,7 +44,6 @@ chmod +x ./launch && ./launch
 
 #
 
-### This project includes the `fastfetch` source code and binary, licensed under the MIT license.
+### This project includes the `fastfetch` binary, licensed under the MIT license.
 
-### See `fastfetch/LICENSE` for details.
-
+### See `LICENSE-fastfetch` for details.
