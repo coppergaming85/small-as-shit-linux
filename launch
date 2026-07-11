@@ -1,0 +1,8 @@
+#!/bin/bash
+qemu-system-x86_64 \
+  -kernel ./linux-7.0.9/arch/x86/boot/bzImage \
+  -initrd ./initrd.img \
+  -append "console=tty1 vga=791" \
+  -vga std \
+  -smp 2 \
+  -m 78M

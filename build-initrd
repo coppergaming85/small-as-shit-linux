@@ -1,0 +1,14 @@
+#!/bin/bash
+echo ""
+if [ -f "./initrd.img" ]; then
+    echo "initrd exists !!!"
+    echo "overwriting in 5 seconds..."
+    sleep 5
+    rm ./initrd.img
+fi
+
+cd ./initramfs
+find . -print0 | cpio --null -ov --format=newc > ../initrd.img
+
+echo ""
+echo "done"
