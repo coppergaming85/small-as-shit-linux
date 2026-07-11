@@ -44,6 +44,6 @@ chmod +x ./launch && ./launch
 
 #
 
-### This project includes the `fastfetch` binary, licensed under the MIT license.
+### This project includes the `fastfetch` and `busybox` binaries, licensed under the MIT and GPLv2 license respectively.
 
-### See `LICENSE-fastfetch` for details.
+### See `LICENSE-fastfetch` and `LICENSE-busybox` for details.
