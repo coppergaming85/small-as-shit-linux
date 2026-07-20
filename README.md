@@ -6,6 +6,8 @@ Runs at a minimum of ***78M*** of RAM.
 
 ## **Build and run:**
 
+### 0. Make sure you have QEMU installed
+
 ### 1. Clone the repo
 
 ```bash
